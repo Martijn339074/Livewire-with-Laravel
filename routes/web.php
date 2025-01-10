@@ -9,6 +9,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/livewire', function () {
+    return view('livewire/index');
+});
+
 Route::get('/leveranciers', function () {
     return view('leveranciers');
 });

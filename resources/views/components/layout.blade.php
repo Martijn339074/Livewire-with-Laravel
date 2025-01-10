@@ -10,7 +10,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="{{ url('/') }}">My App</a>
+            <a class="navbar-brand" href="{{ url('/') }}">Martijn App</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -20,13 +20,7 @@
                         <a class="nav-link" href="{{ url('/') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/leveranciers') }}">Overzicht leveranciers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/magazijn') }}">magazijn</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ url('/products') }}">producten</a>
+                        <a class="nav-link" href="{{ url('/livewire') }}">Livewire</a>
                     </li>
                 </ul>
             </div>
